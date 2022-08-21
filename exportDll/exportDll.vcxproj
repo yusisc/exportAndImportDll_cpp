@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{BEF0FDBD-42E3-4977-80D1-750F06839D59}</ProjectGuid>
+    <ProjectGuid>{FE9B40C7-6106-4C63-B203-D051E0931601}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>exportAndImportDllcpp</RootNamespace>
+    <RootNamespace>exportDll</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -151,7 +151,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="exportAndImportDll_cpp.cpp" />
+    <ClCompile Include="exportDll.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
