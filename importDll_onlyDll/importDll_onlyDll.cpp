@@ -23,7 +23,7 @@ namespace dllFunc
 	HMODULE hdl;
 
 	// path to the dll file to be loaded.
-	std::string dll_filename = "../x64/Debug/exportDll.dll";
+	std::string dll_filename = "../x64/Debug/exportDll.exe";
 
 	int load_dll()
 	{
